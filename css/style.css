@@ -4,13 +4,13 @@ body{
     font-family: Raleway;
     font-size: 14px;
     overflow: hidden;
-    background: hsl(229, 57%, 11%) no-repeat url(../images/bg-desktop.png) center -140%;
+    background: hsl(229, 57%, 11%) no-repeat url(../images/bg-desktop.png) center -170%;
     background-size:100%;
 }
 
 main{
     display: flex;
-    transform: translate(20%,250px);
+    transform: translate(19%,250px);
     
 }
 section{background-color: hsl(228, 56%, 26%);}
@@ -97,17 +97,19 @@ section:last-of-type >div:last-child{
         background: hsl(229, 57%, 11%) no-repeat url(../images/bg-mobile.png) ;
         background-size:100%;
     }
-    main{flex-direction: column;transform: translate(0,20%);}
-    main section:first-of-type{width:90%;margin: auto;}
-    main section:last-of-type{margin-left: 0;width:90%;margin:50px auto}
+    main{flex-direction: column;transform: translate(-8%,20%);}
+    main section:first-of-type{width:80%;margin: 0 auto;}
+    main section:last-of-type{margin-left: 0;width:80%;margin:50px auto}
     #left{
-        transform:translate(60px,60px);
+        transform:translate(40px,50px);
         width:60%;
         text-align: center;
         font-size: 22px;
     }
     #left::after{content: none;}
     #progress div::after{left:75%}
+    #progress{ transform: translateY(-85px);}
+    section:last-of-type >div:last-child{transform: translateY(-80px);}
 } 
 @font-face {
     font-family: Raleway;
