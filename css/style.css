@@ -89,8 +89,6 @@ section:last-of-type >div:last-child{
     display:flex;
     justify-content: space-between;
 }
-.attribution{text-align: center;}
-.attribution a{color:yellowgreen}
 
 @media(max-width:769px){
     body{
